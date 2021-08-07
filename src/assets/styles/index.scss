@@ -1,0 +1,86 @@
+// FUENTE LOBAL //
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+
+// ESTILOS DE COMPONENTES
+
+@import './components/Header';
+@import './components/Wrapper';
+
+// VARIABLES DESING SYSTEM 
+
+:root {
+  --font-base: 'Poppins', sans-serif;
+  --headline1: bold 95px/153.71px var(--font-base);
+  --headline2: bold 59px/95.46px var(--font-base);
+  --headline3: bold 48px/77.66px var(--font-base);
+  --headline4: bold 34px/55.01px var(--font-base);
+  --headline5: bold 24px/38.83px var(--font-base);
+  --body1: 16px/25.89px var(--font-base);
+  --body2: 14px/22.65px var(--font-base);
+  --button: bold 14px/22.65px var(--font-base);
+  --caption: 12px/19.42px var(--font-base);
+  --primary-color: #310A90;
+  --secondary-color: #42E2B8;
+  --base-color: #FFFFFF;
+  --gray: #858C94;
+  --gradient:  radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+
+// REINICIANDO ESTILOS DEL NAVEGADOR
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// ESTILOS GLOBALES 
+
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--headline4);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  height: 49px;
+  color: var(--base-color);
+  font: var(--button);
+  padding: 13px 24px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: unset;
+  height: 49px;
+  color: var(--primary-color);
+  font: var(--button);
+  padding: 13px 24px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+}
+
+.btn-icon {
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 10px;
+  background: var(--base-color);
+  cursor: pointer;
+}
+
+.btn-icon img {
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+}
+
+.descarga {
+  width: 100%;
+}
