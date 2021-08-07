@@ -1,51 +1,37 @@
 import React from 'react';
+import reynaldo from '../assets/static/images/reynaldo.png';
 
 const Hero = () => (
   <>
     <main id='hero'>
       <section className='hero'>
-        <div className='hero-content-image'>
-          <figure>
-            <img src='./assets/images/user.png' alt='Imagen de Juan' />
-          </figure>
-        </div>
-        <div className='hero-content-description'>
-          <div className='hero-title'>
+        <figure className='hero__content__image'>
+          <img src={reynaldo} alt='Imagen de Reynaldo' />
+        </figure>
+        <div className='hero__content__description'>
+          <div className='hero__content__description--title'>
             <span>¡Hola a todos!</span>
-            <h1>Soy Jaume</h1>
+            <h1>Soy Reynaldo Moreno</h1>
           </div>
-          <div className='hero-info'>
+          <div className='hero__content__description--info'>
             <p>
-              Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.
+              Frontend Developer Jr que le encanta implementar diseños que inspiran y atraen a las personas.
             </p>
           </div>
-          <div className='hero-social'>
-            <a href='tel:+584142537845'>
-              <button className='btn-icon' aria-label='Numero de telefono' type='button'>
-                <img src='./assets/icons/icon-phone.svg' alt='Icono de llamada' />
-              </button>
+          <div className='hero__content__description--social'>
+            <a href='https://www.linkedin.com/in/reynaldo-moreno-2abab11b6/' target='_blank' rel='noreferrer'>
+              <i className='fab fa-linkedin btn-icon' />
             </a>
-            <a href='tel:+584142537845'>
-              <button className='btn-icon' aria-label='Correo electronico' type='button'>
-                <img src='./assets/icons/email.svg' alt='Icono de correo' />
-              </button>
+            <a href='https://www.instagram.com/reynaldom31/' target='_blank' rel='noreferrer'>
+              <i className='fab fa-instagram-square btn-icon' />
             </a>
-            <a href='tel:+584142537845'>
-              <button className='btn-icon' aria-label='Instagram' type='button'>
-                <img src='./assets/icons/icon-instagram.svg' alt='Icono de instagram' />
-              </button>
+            <a href='https://twitter.com/Rmoreno_31' target='_blank' rel='noreferrer'>
+              <i className='fab fa-twitter btn-icon' />
             </a>
-            <a href='tel:+584142537845'>
-              <button className='btn-icon' aria-label='Twitter' type='button'>
-                <img src='./assets/icons/icon-twitter_squared.svg' alt='Icono de twitter' />
-              </button>
+            <a href='https://github.com/Rmoreno3' target='_blank' rel='noreferrer'>
+              <i className='fab fa-github btn-icon' />
             </a>
           </div>
-          <a href='/'>
-            <button className='btn-primary descarga' aria-label='Descargar curriculum' type='button'>
-              Descargar Curriculum
-            </button>
-          </a>
         </div>
       </section>
     </main>

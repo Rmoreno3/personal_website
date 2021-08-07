@@ -7,6 +7,9 @@
 
 @import './components/Header';
 @import './components/Wrapper';
+@import './components//Hero';
+@import './components/Testimonio';
+@import './components/MediaQuerys';
 
 // VARIABLES DESING SYSTEM 
 
@@ -73,6 +76,7 @@ body {
   padding: 10px;
   background: var(--base-color);
   cursor: pointer;
+  margin-inline-end: 8px;
 }
 
 .btn-icon img {

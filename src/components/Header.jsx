@@ -1,11 +1,12 @@
 import React from 'react';
+import logo from '../assets/static/images/logo.png';
 
 const Header = () => (
   <header className='header'>
     <div className='wrapper'>
       <div className='header__content'>
         <figure className='header__logo_container'>
-          {/* <img src='' alt='logo' /> */}
+          <img src={logo} alt='logo' />
         </figure>
         <nav className='header__nav'>
           <ul>
