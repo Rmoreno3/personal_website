@@ -24,11 +24,17 @@
   --body2: 14px/22.65px var(--font-base);
   --button: bold 14px/22.65px var(--font-base);
   --caption: 12px/19.42px var(--font-base);
-  --primary-color: #310A90;
+  --primary-color: #3071bb;
   --secondary-color: #42E2B8;
   --base-color: #FFFFFF;
   --gray: #858C94;
-  --gradient:  radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+  --gradient: background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+  
+  
 }
 
 // REINICIANDO ESTILOS DEL NAVEGADOR
