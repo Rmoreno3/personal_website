@@ -9,6 +9,7 @@
 @import './components/Wrapper';
 @import './components//Hero';
 @import './components/Testimonio';
+@import './components/Proyect';
 @import './components/MediaQuerys';
 
 // VARIABLES DESING SYSTEM 
@@ -28,13 +29,7 @@
   --secondary-color: #42E2B8;
   --base-color: #FFFFFF;
   --gray: #858C94;
-  --gradient: background: #11998e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  
-  
-  
+  --gradient: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
 }
 
 // REINICIANDO ESTILOS DEL NAVEGADOR
