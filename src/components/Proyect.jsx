@@ -17,11 +17,11 @@ const Proyect = (props) => {
           <span className='tag'>{tag2}</span>
           <span className='tag'>{tag3}</span>
         </div>
-        <a href={codigo}>
-          <button className='btn-secondary descarga' aria-label='Ver codigo' type='button'>Ver Codigo</button>
+        <a href={codigo} target='_blank' rel='noreferrer'>
+          <button className='btn-secondary descarga' aria-label='Ver codigo' type='button' target='_blank' rel='noreferrer'>Ver Codigo</button>
         </a>
-        <a href={pagina}>
-          <button className='btn-primary descarga' aria-label='Ver proyecto' type='button'>Ver Proyecto</button>
+        <a href={pagina} target='_blank' rel='noreferrer'>
+          <button className='btn-primary descarga' aria-label='Ver proyecto' type='button' target='_blank' rel='noreferrer'>Ver Proyecto</button>
         </a>
       </div>
     </section>
