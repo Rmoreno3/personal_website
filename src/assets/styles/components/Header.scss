@@ -32,5 +32,10 @@
 }
 
 .link {
-  color: var(--base-color);
+  & > a:n {
+    color: var(--secondary-color);
+  }
+  & > a:nth-last-child(1) {
+    color: var(--primary-color);
+  }
 }

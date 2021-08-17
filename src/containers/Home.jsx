@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Testimonio from '../components/Testimonio';
 import Proyect from '../components/Proyect';
+import Footer from '../components/Footer';
 import '../assets/styles/index.scss';
 
 import imageProyect from '../assets/static/images/platziconf.png';
@@ -14,6 +15,9 @@ import tatto from '../assets/static/images/tatto.png';
 import blog from '../assets/static/images/blog.png';
 import cajas from '../assets/static/images/cajas.png';
 import rick from '../assets/static/images/rickymorty.png';
+import pugstagram from '../assets/static/images/pugstagram.png';
+import crypto from '../assets/static/images/crypto.png';
+import portfolio from '../assets/static/images/portfolio.png';
 
 const Home = () => (
   <Wrapper>
@@ -22,8 +26,8 @@ const Home = () => (
     <Testimonio />
     <Proyect
       title='PlatziConf Hawaii'
-      tag1='HTML'
-      tag2='CSS'
+      tag1='HTML | '
+      tag2='CSS | '
       tag3='Bootstrap'
       image={imageProyect}
       info='Pagina web (Clon), de PlatziConf Hawaii.'
@@ -32,7 +36,7 @@ const Home = () => (
     />
     <Proyect
       title='PlatziFood'
-      tag1='HTML'
+      tag1='HTML | '
       tag2='CSS'
       image={platzifood}
       info='Pagina Web de comida rapida, PlatziFood'
@@ -41,8 +45,8 @@ const Home = () => (
     />
     <Proyect
       title='Simon Dice'
-      tag1='HTML'
-      tag2='CSS'
+      tag1='HTML | '
+      tag2='CSS | '
       tag3='JavaScript'
       image={simon}
       info='Juego de Simon Dice, donde se debe repetir la secuencia de colores.'
@@ -51,8 +55,8 @@ const Home = () => (
     />
     <Proyect
       title='Tatto '
-      tag1='HTML'
-      tag2='CSS'
+      tag1='HTML | '
+      tag2='CSS | '
       tag3='Foundation'
       image={tatto}
       info='Landin page de una e-commerce de venta de Tatuajes falsos.'
@@ -61,9 +65,8 @@ const Home = () => (
     />
     <Proyect
       title='Blog Personal'
-      tag1='HTML'
+      tag1='HTML | '
       tag2='CSS'
-      tag3=''
       image={blog}
       info='Maquetacion de un Blog Personal, para uso de cualquien persona.'
       codigo='https://github.com/Rmoreno3/BlogPersonal'
@@ -71,9 +74,8 @@ const Home = () => (
     />
     <Proyect
       title='Brand'
-      tag1='HTML'
+      tag1='HTML | '
       tag2='CSS'
-      tag3=''
       image={cajas}
       info='Landin page de una e-commerce de venta de cajas para gatos y humanos'
       codigo='https://github.com/Rmoreno3/DigitalProduct'
@@ -81,14 +83,44 @@ const Home = () => (
     />
     <Proyect
       title='Rick & Morty'
-      tag1='HTML'
-      tag2='CSS'
+      tag1='HTML | '
+      tag2='CSS | '
       tag3='JavaScript'
       image={rick}
       info='Creacion de una SPA con JavaScript Vanilla, y consumo de la API de Rick & Morty'
       codigo='https://github.com/Rmoreno3/single-page'
       pagina='https://rmoreno3.github.io/single-page/'
     />
+    <Proyect
+      title='Pugstagram'
+      tag1='HTML | '
+      tag2='CSS | '
+      tag3='Svelte'
+      image={pugstagram}
+      info='Landing page clon de Instagram, una red social echa para Pugs'
+      codigo='https://github.com/Rmoreno3/pugstagram'
+      pagina='https://60b91623f446a20e66b493ca--tender-montalcini-a01aa5.netlify.app/'
+    />
+    <Proyect
+      title='Platzi Exchange'
+      tag1='HTML | '
+      tag2='CSS | '
+      tag3='Vue'
+      image={crypto}
+      info='Aplicacion Web de cryptomonedas, para ver el valor de las diferentes crypto y sus estadisticas'
+      codigo='https://github.com/Rmoreno3/Proyect-Crypto'
+      pagina='https://rmoreno3.github.io/Proyect-Crypto/'
+    />
+    <Proyect
+      title='Portafolio Jaume'
+      tag1='HTML | '
+      tag2='CSS'
+      image={portfolio}
+      info='Plantilla de un portafolio, elaborada para ser usada por culaquier persona'
+      codigo='https://github.com/Rmoreno3/Portafolio'
+      pagina='https://rmoreno3.github.io/Portafolio/'
+    />
+    <Footer />
   </Wrapper>
 );
 

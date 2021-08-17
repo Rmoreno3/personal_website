@@ -11,6 +11,7 @@
 @import './components//Hero';
 @import './components/Testimonio';
 @import './components/Proyect';
+@import './components/Footer';
 @import './components/MediaQuerys';
 
 // VARIABLES DESING SYSTEM 
@@ -26,8 +27,8 @@
   --body2: 14px/22.65px var(--font-base);
   --button: bold 14px/22.65px var(--font-base);
   --caption: 12px/19.42px var(--font-base);
-  --primary-color: #3071bb;
-  --secondary-color: #42E2B8;
+  --primary-color: #FFF;
+  --secondary-color: black;
   --base-color: #FFFFFF;
   --gray: #858C94;
   --gradient: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
@@ -51,13 +52,19 @@ body {
 .btn-primary {
   background: var(--primary-color);
   height: 49px;
-  color: var(--base-color);
+  color: var(--secondary-color);
   font: var(--button);
   padding: 13px 24px;
   border-radius: 4px;
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+  transition: transform 1.6s ease;
+  &:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+  }
 }
 
 .btn-secondary {
@@ -70,6 +77,12 @@ body {
   text-transform: uppercase;
   border: 2px solid var(--primary-color);
   cursor: pointer;
+  transition: transform 1.6s ease;
+  &:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+  }
 }
 
 .btn-icon {
@@ -79,6 +92,12 @@ body {
   background: var(--base-color);
   cursor: pointer;
   margin-inline-end: 8px;
+  transition: transform 1.6s ease;
+  &:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+  }
 }
 
 .btn-icon img {

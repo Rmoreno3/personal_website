@@ -8,16 +8,16 @@
       width: 100%;
       margin: 16px 0 16px 0;
     & a:nth-last-child(4) {
-      color: rgb(35, 98, 214);
+      color: var(--secondary-color);
     }
     & a:nth-last-child(3) {
-      color: black;
+      color: var(--secondary-color);
     }
     & a:nth-last-child(2) {
-      color: rgb(79, 137, 212);
+      color: var(--secondary-color);
     }
     & a:nth-last-child(1) {
-      color: black;
+      color: var(--secondary-color);
     }
     }
     &--title {

@@ -10,18 +10,18 @@ const Header = () => (
         </figure>
         <nav className='header__nav'>
           <ul>
-            <li>
+            <li className='link'>
               <a aria-label='Hola' href='#hero'>
                 Hola
               </a>
             </li>
-            <li>
-              <a href='#proyectos' aria-label='Proyectos' className='link'>
+            <li className='link'>
+              <a href='#proyectos' aria-label='Proyectos'>
                 Proyectos
               </a>
             </li>
-            <li>
-              <a href='#contacto' aria-label='Hablemos' className='link'>
+            <li className='link'>
+              <a href='#contacto' aria-label='Hablemos'>
                 Hablemos
               </a>
             </li>

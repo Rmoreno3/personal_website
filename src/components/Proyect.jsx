@@ -13,9 +13,11 @@ const Proyect = (props) => {
         <a className='proyect-title' href='/'>{title}</a>
         <p>{info}</p>
         <div className='proyect-info--tags'>
-          <span className='tag'>{tag1}</span>
-          <span className='tag'>{tag2}</span>
-          <span className='tag'>{tag3}</span>
+          <span className='tag'>
+            {tag1}
+            {tag2}
+            {tag3}
+          </span>
         </div>
         <a href={codigo} target='_blank' rel='noreferrer'>
           <button className='btn-secondary descarga' aria-label='Ver codigo' type='button' target='_blank' rel='noreferrer'>Ver Codigo</button>
