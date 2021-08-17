@@ -1,0 +1,111 @@
+// FUENTE LOBAL //
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+
+// ESTILOS DE COMPONENTES
+
+@import './components/Header';
+@import './components/Wrapper';
+@import './components/Animaciones';
+@import './components//Hero';
+@import './components/Testimonio';
+@import './components/Proyect';
+@import './components/Footer';
+@import './components/MediaQuerys';
+
+// VARIABLES DESING SYSTEM 
+
+:root {
+  --font-base: 'Poppins', sans-serif;
+  --headline1: bold 95px/153.71px var(--font-base);
+  --headline2: bold 59px/95.46px var(--font-base);
+  --headline3: bold 48px/77.66px var(--font-base);
+  --headline4: bold 34px/55.01px var(--font-base);
+  --headline5: bold 24px/38.83px var(--font-base);
+  --body1: 16px/25.89px var(--font-base);
+  --body2: 14px/22.65px var(--font-base);
+  --button: bold 14px/22.65px var(--font-base);
+  --caption: 12px/19.42px var(--font-base);
+  --primary-color: #FFF;
+  --secondary-color: black;
+  --base-color: #FFFFFF;
+  --gray: #858C94;
+  --gradient: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+}
+
+// REINICIANDO ESTILOS DEL NAVEGADOR
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// ESTILOS GLOBALES 
+
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--headline4);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  height: 49px;
+  color: var(--secondary-color);
+  font: var(--button);
+  padding: 13px 24px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: transform 1.6s ease;
+  &:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+  }
+}
+
+.btn-secondary {
+  background: unset;
+  height: 49px;
+  color: var(--primary-color);
+  font: var(--button);
+  padding: 13px 24px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+  transition: transform 1.6s ease;
+  &:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+  }
+}
+
+.btn-icon {
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 10px;
+  background: var(--base-color);
+  cursor: pointer;
+  margin-inline-end: 8px;
+  transition: transform 1.6s ease;
+  &:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+  }
+}
+
+.btn-icon img {
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+}
+
+.descarga {
+  width: 100%;
+}

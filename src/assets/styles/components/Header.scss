@@ -1,0 +1,41 @@
+.header {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+    & > button {
+      width: 153px;
+    }
+  }
+  &__logo_container {
+  width: 70px;
+  margin: 21px 16px 21px 16px;
+  & > img {
+    width: 100%;
+  }
+  } 
+  &__nav {
+    display: none;
+    & > ul {
+      list-style-type: none;
+      display: flex;
+      gap: 40px;
+      font: var(--button);
+    }
+    & a {
+      text-transform: uppercase;
+      text-decoration: none
+    }
+  }
+
+}
+
+.link {
+  & > a:n {
+    color: var(--secondary-color);
+  }
+  & > a:nth-last-child(1) {
+    color: var(--primary-color);
+  }
+}
