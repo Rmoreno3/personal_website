@@ -15,7 +15,7 @@ const Hero = () => (
           </div>
           <div className='hero__content__description--info'>
             <p>
-              Frontend Developer Jr que le encanta implementar diseños que inspiran y atraen a las personas.
+              Frontend Developer Jr que le encanta implementar diseños que inspiren, atraigan y den soluciones a las personas.
             </p>
           </div>
           <div className='hero__content__description--social'>

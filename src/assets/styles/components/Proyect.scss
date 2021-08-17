@@ -2,9 +2,14 @@
   margin-block-start: 50px;
 }
 
+.proyect-img {
+  display: flex;
+  justify-content: center;
+}
+
 .proyect-img__container {
-  width: 100%;
-  height: 100%;
+  block-size: 500px;
+  inline-size: 500px;
 }
 
 .proyect-img__container img {

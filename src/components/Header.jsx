@@ -27,7 +27,7 @@ const Header = () => (
             </li>
           </ul>
         </nav>
-        <a href='/'>
+        <a href='https://docs.google.com/document/d/1-Z0kdvRDF4WmYlnBiX_VLSrKsO16z6nUKhu7em5e38Q/edit?usp=sharing' target='_blank' rel='noreferrer'>
           <button className='btn-primary' aria-label='Curriculum' type='button'>
             Curriculum
           </button>
