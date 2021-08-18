@@ -8,16 +8,16 @@ import Proyect from '../components/Proyect';
 import Footer from '../components/Footer';
 import '../assets/styles/index.scss';
 
-import imageProyect from '../assets/static/images/platziconf.png';
-import platzifood from '../assets/static/images/platzifood.png';
-import simon from '../assets/static/images/simonDice.png';
-import tatto from '../assets/static/images/tatto.png';
-import blog from '../assets/static/images/blog.png';
-import cajas from '../assets/static/images/cajas.png';
-import rick from '../assets/static/images/rickymorty.png';
-import pugstagram from '../assets/static/images/pugstagram.png';
-import crypto from '../assets/static/images/crypto.png';
-import portfolio from '../assets/static/images/portfolio.png';
+import imageProyect from '../assets/static/images/platziconf.jpg';
+import platzifood from '../assets/static/images/platzifood.jpg';
+import simon from '../assets/static/images/simonDice.jpg';
+import tatto from '../assets/static/images/tatto.jpg';
+import blog from '../assets/static/images/blog.jpg';
+import cajas from '../assets/static/images/cajas.jpg';
+import rick from '../assets/static/images/rickymorty.jpg';
+import pugstagram from '../assets/static/images/pugstagram.jpg';
+import crypto from '../assets/static/images/crypto.jpg';
+import portfolio from '../assets/static/images/portfolio.jpg';
 
 const Home = () => (
   <Wrapper>
