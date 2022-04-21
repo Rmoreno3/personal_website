@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import '../assets/styles/index.scss';
 
 import imageProyect from '../assets/static/images/platziconf.jpg';
+import baterias from '../assets/static/images/baterias.jpg';
 import platzifood from '../assets/static/images/platzifood.jpg';
 import simon from '../assets/static/images/simonDice.jpg';
 import tatto from '../assets/static/images/tatto.jpg';
@@ -24,6 +25,16 @@ const Home = () => (
     <Header />
     <Hero />
     <Testimonio />
+    <Proyect
+      title='Enerjet Venezuela'
+      tag1='HTML | '
+      tag2='CSS | '
+      tag3='Wordpress'
+      image={baterias}
+      info='Creacion de la pagina web de la distribuidora de baterias N°1 de Venezuela, Enerjet Venezuela'
+      codigo=''
+      pagina='https://enerjet.com.ve/'
+    />
     <Proyect
       title='PlatziConf Hawaii'
       tag1='HTML | '
