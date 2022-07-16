@@ -13,8 +13,8 @@ const Header = () => (
         <nav className="header__nav">
           <ul>
             <li className="link">
-              <a aria-label="Hola" href="#hero">
-                Hola
+              <a id="certificados" href='https://platzi.com/p/Rmoreno31/' aria-label='Hola' target='_blank' rel='noreferrer'>
+                Certificados
               </a>
             </li>
             <li className="link">
