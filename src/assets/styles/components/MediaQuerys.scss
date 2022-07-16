@@ -38,6 +38,13 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .hero__content__image {
+    height: 350px;
+    width: 350px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .hero__content__image {
     height: 400px;

@@ -10,7 +10,7 @@ const Hero = () => (
         </figure>
         <div className='hero__content__description'>
           <div className='hero__content__description--title'>
-            <span>¡Hola a todos!</span>
+            <span>¡Hola!</span>
             <h1>Soy Reynaldo Moreno</h1>
           </div>
           <div className='hero__content__description--info'>

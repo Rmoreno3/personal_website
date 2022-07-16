@@ -12,7 +12,7 @@ const Footer = () => (
       <div className='footer-info'>
         <p>Powered By 🖤 Reynaldo Moreno</p>
         <p>
-          Copyright 2021 - Todos los derechos reservados.
+          Copyright 2022 - Todos los derechos reservados.
         </p>
       </div>
       <div className='social ocultar'>

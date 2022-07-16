@@ -16,7 +16,8 @@ import tatto from '../assets/static/images/tatto.jpg';
 import blog from '../assets/static/images/blog.jpg';
 import cajas from '../assets/static/images/cajas.jpg';
 import rick from '../assets/static/images/rickymorty.jpg';
-import pugstagram from '../assets/static/images/pugstagram.jpg';
+// import pugstagram from '../assets/static/images/pugstagram.jpg';
+import TodoList from '../assets/static/images/Todo_List.jpg';
 import crypto from '../assets/static/images/crypto.jpg';
 import portfolio from '../assets/static/images/portfolio.jpg';
 
@@ -26,14 +27,14 @@ const Home = () => (
     <Hero />
     <Testimonio />
     <Proyect
-      title='Enerjet Venezuela'
+      title='Todo List'
       tag1='HTML | '
       tag2='CSS | '
-      tag3='Wordpress'
-      image={baterias}
-      info='Creacion de la pagina web de la distribuidora de baterias N°1 de Venezuela, Enerjet Venezuela'
-      codigo=''
-      pagina='https://enerjet.com.ve/'
+      tag3='ReactJS'
+      image={TodoList}
+      info='App TodoList para anotar tareas por realizar'
+      codigo='https://github.com/Rmoreno3/Todo_machine'
+      pagina='https://rmoreno3.github.io/Todo_machine/'
     />
     <Proyect
       title='PlatziConf Hawaii'
@@ -53,6 +54,16 @@ const Home = () => (
       info='Pagina Web de comida rapida, PlatziFood'
       codigo='https://github.com/Rmoreno3/PlatziFood'
       pagina='https://rmoreno3.github.io/PlatziFood/'
+    />
+    <Proyect
+      title='Enerjet Venezuela'
+      tag1='HTML | '
+      tag2='CSS | '
+      tag3='Wordpress'
+      image={baterias}
+      info='Creacion de la pagina web de la distribuidora de baterias N°1 de Venezuela, Enerjet Venezuela'
+      codigo=''
+      pagina='https://enerjet.com.ve/'
     />
     <Proyect
       title='Simon Dice'
@@ -102,7 +113,7 @@ const Home = () => (
       codigo='https://github.com/Rmoreno3/single-page'
       pagina='https://rmoreno3.github.io/single-page/'
     />
-    <Proyect
+    {/* <Proyect
       title='Pugstagram'
       tag1='HTML | '
       tag2='CSS | '
@@ -111,7 +122,7 @@ const Home = () => (
       info='Landing page clon de Instagram, una red social echa para Pugs'
       codigo='https://github.com/Rmoreno3/pugstagram'
       pagina='https://60b91623f446a20e66b493ca--tender-montalcini-a01aa5.netlify.app/'
-    />
+    /> */}
     <Proyect
       title='Platzi Exchange'
       tag1='HTML | '
